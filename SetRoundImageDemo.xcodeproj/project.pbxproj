@@ -15,6 +15,7 @@
 		D26EF8E71FCFF48D0001888A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26EF8E51FCFF48D0001888A /* LaunchScreen.storyboard */; };
 		D26EF8F21FCFF48D0001888A /* SetRoundImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF8F11FCFF48D0001888A /* SetRoundImageDemoTests.m */; };
 		D26EF8FD1FCFF48D0001888A /* SetRoundImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26EF8FC1FCFF48D0001888A /* SetRoundImageDemoUITests.m */; };
+		D26EF90B1FCFFC7D0001888A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D26EF90A1FCFFC7D0001888A /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D26EF8F81FCFF48D0001888A /* SetRoundImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetRoundImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26EF8FC1FCFF48D0001888A /* SetRoundImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetRoundImageDemoUITests.m; sourceTree = "<group>"; };
 		D26EF8FE1FCFF48D0001888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26EF90A1FCFFC7D0001888A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,9 @@
 		D26EF8D61FCFF48D0001888A /* SetRoundImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D26EF8DA1FCFF48D0001888A /* AppDelegate.h */,
-				D26EF8DB1FCFF48D0001888A /* AppDelegate.m */,
 				D26EF8DD1FCFF48D0001888A /* ViewController.h */,
 				D26EF8DE1FCFF48D0001888A /* ViewController.m */,
-				D26EF8E01FCFF48D0001888A /* Main.storyboard */,
-				D26EF8E31FCFF48D0001888A /* Assets.xcassets */,
-				D26EF8E51FCFF48D0001888A /* LaunchScreen.storyboard */,
-				D26EF8E81FCFF48D0001888A /* Info.plist */,
+				D26EF90A1FCFFC7D0001888A /* 1.png */,
 				D26EF8D71FCFF48D0001888A /* Supporting Files */,
 			);
 			path = SetRoundImageDemo;
@@ -117,6 +114,12 @@
 		D26EF8D71FCFF48D0001888A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D26EF8DA1FCFF48D0001888A /* AppDelegate.h */,
+				D26EF8DB1FCFF48D0001888A /* AppDelegate.m */,
+				D26EF8E01FCFF48D0001888A /* Main.storyboard */,
+				D26EF8E31FCFF48D0001888A /* Assets.xcassets */,
+				D26EF8E51FCFF48D0001888A /* LaunchScreen.storyboard */,
+				D26EF8E81FCFF48D0001888A /* Info.plist */,
 				D26EF8D81FCFF48D0001888A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,6 +252,7 @@
 				D26EF8E71FCFF48D0001888A /* LaunchScreen.storyboard in Resources */,
 				D26EF8E41FCFF48D0001888A /* Assets.xcassets in Resources */,
 				D26EF8E21FCFF48D0001888A /* Main.storyboard in Resources */,
+				D26EF90B1FCFFC7D0001888A /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
